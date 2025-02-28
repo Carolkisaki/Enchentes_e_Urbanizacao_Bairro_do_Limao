@@ -1,4 +1,4 @@
-# Projeto Extensão 1 - Bairro do Limão: Soluções para Alagamentos e Sustentabilidade
+# Projeto Extensão 1 - Bairro do Limão: Alagamentos x Sustentabilidade
 
 Desenvolvido como parte da grade curricular da Universidade Cruzeiro do Sul. Este projeto de extensão visa abordar os problemas de alagamento no Bairro do Limão, localizado em São Paulo - SP. Através de ações educativas e de conscientização, buscamos promover mudanças comportamentais na população, estimulando práticas sustentáveis e o descarte correto de lixo, de forma a mitigar os impactos das mudanças climáticas e reduzir os efeitos das enchentes recorrentes na região.
 
