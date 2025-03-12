@@ -138,3 +138,70 @@ Resultado
 |2024-12-31  	|28.5                           |77.3
 |2025-01-31  	|29.5                           |75.5
 ```
+### Comparativo Precipitação Acumulada(mm)
+```sql
+SELECT
+	 strftime('%Y', date(substr(data_medicao, 7, 4) || '-' || 
+                         substr(data_medicao, 4, 2) || '-' || 
+                         substr(data_medicao, 1, 2))) AS ano,
+     CASE strftime('%m', date(substr(data_medicao, 7, 4) || '-' || 
+                              substr(data_medicao, 4, 2) || '-' || 
+                              substr(data_medicao, 1, 2))) 
+        WHEN '01' THEN 'Jan' WHEN '02' THEN 'Fev' WHEN '03' THEN 'Mar'
+        WHEN '04' THEN 'Abr' WHEN '05' THEN 'Mai' WHEN '06' THEN 'Jun'
+        WHEN '07' THEN 'Jul' WHEN '08' THEN 'Ago' WHEN '09' THEN 'Set'
+        WHEN '10' THEN 'Out' WHEN '11' THEN 'Nov' WHEN '12' THEN 'Dez'
+        END as mes,
+        SUM(precipitacao_total_mensal) AS precipitacao_total_mensal
+FROM dadosmensais20202025
+WHERE data_medicao IS NOT NULL and precipitacao_total_mensal IS NOT NULL
+GROUP BY ano, mes
+ORDER BY ano, mes;
+```
+Resultado
+```markdown
+|ano	|mês	|Precipitação Total |
+|----   |----   |------------------ |
+|2020   |Fev	|505,7              |
+|2020	|Jan	|287,4              |
+|2021	|Ago	|44,4               |
+|2021	|Dez	|127,3              |
+|2021	|Nov	|98,6               |
+|2021	|Out	|91,9               |
+|2021	|Set	|39,5               |
+|2022	|Ago	|22,8               |
+|2022	|Dez	|159,8              |
+|2022	|Fev	|68,1               |
+|2022	|Jan	|357,2              |
+|2022	|Jul	|9,0                |
+|2022	|Jun	|32,3               |
+|2022	|Mai	|42,3               |
+|2022	|Mar	|213,9              |
+|2022	|Nov	|181,6              |
+|2022	|Out	|95,9               |
+|2022	|Set	|129,6              |
+|2023	|Abr	|106,8              |
+|2023	|Ago	|28,3               |
+|2023	|Dez	|95,9               |
+|2023	|Fev	|428,9              |
+|2023	|Jan	|211,0              |
+|2023	|Jul	|11,0               |
+|2023	|Jun	|46,9               |
+|2023	|Mai	|51,1               |
+|2023	|Mar	|239,2              |
+|2023	|Nov	|182,8              |
+|2023	|Out	|356,0              |
+|2023	|Set	|77,6               |
+|2024	|Abr	|16,6               |
+|2024	|Ago	|59,0               |
+|2024	|Dez	|231,0              |
+|2024	|Fev	|231,9              |
+|2024	|Jan	|286,6              |
+|2024	|Jul	|68,0               |
+|2024	|Jun	|0,0                |
+|2024	|Mai	|61,7               |
+|2024	|Mar	|283,6              |
+|2024	|Nov	|122,5              |
+|2024	|Out	|177,4              |
+|2024	|Set	|15,2               |
+|2025	|Jan	|334,2              |
