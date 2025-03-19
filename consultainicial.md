@@ -1,4 +1,5 @@
 Vamos iniciar o projeto analisando indicadores climáticos como: Média de Precipitação Anual, Contagem de Dias Chuvosos por Mês e Correlação entre Temperatura e Umidade. Esses indicadores são fundamentais para entender os impactos do clima e como ele pode aetar o meio ambiente e a qualidade de vida das pessoas.
+
 ### Convertendo a coluna data_medição para o formato AAAA-MM-DD
 ``` sql
 ALTER TABLE dadosmensais20202025 ADD COLUMN data_formatada DATE;
@@ -31,6 +32,7 @@ Resultado
 ```
 ### Contagem de Dias Chuvosos por Mês (Analisando Impacto na Drenagem)
 Essa avaliação nos ajudará a identificar os meses com maior probabilidade de chuvas intensas, assim a cidade pode implementar alertas preventivos, reforçar a infraestrutura e tomar medidas de mitigação para reduzir os riscos de alagamentos.
+Os valores null serão excluídos, mas os valores iguais a zero foram mantidos, isso porque valores null são valores ausentes, ou seja, não possuem informação
 ``` sql
 SELECT strftime('%Y-%m', data_formatada) AS mes,
       AVG(precip_pluv_mensal) AS media_dias_chuva
