@@ -1,13 +1,13 @@
 # Projeto Extensão 1 - Enchentes e Urbanização no Bairro do Limão, São Paulo - SP
-Desenvolvido como parte da grade curricular da Universidade Cruzeiro do Sul. Este projeto de extensão visa desenvolver um framework que auxilie no mapeamento de áreas suscetíveis a enchentes, através do monitoramento e previsão automatizada de ocorrência de inundações pelo Bairro do Limão, localizado na Zona Norte da cidade de São Paulo.
+Desenvolvido como parte da grade curricular da Universidade Cruzeiro do Sul, este projeto busca documentar e analisar os impactos das enchentes no Bairro do Limão, na Zona Norte de São Paulo. Por meio de registros fotográficos, levantamentos históricos e dados sobre precipitação, o estudo visa também compreender os fatores que contribuem para os alagamentos e suas consequências para a comunidade, destacando a necessidade de soluções eficazes para a drenagem urbana.
 
 ## Relação com os Objetivos de Desenvolvimento Sustentável (ODS)
-O projeto está alinhado com os seguintes ODS:
-ODS 3 - Saúde e Bem-Estar: Promover o bem-estar da população, principalmente no que tange à prevenção de doenças ocasionadas pelas enchentes, como leptospirose.
+O projeto está alinhado com o seguinte ODS:
+
 ODS 11 - Cidades e Comunidades Sustentáveis: Promover melhorias na infraestrutura urbana e na gestão dos resíduos sólidos para tornar o bairro mais seguro e sustentável.
 
 ## Local de Desenvolvimento
-O projeto será desenvolvido no Bairro do Limão, São Paulo - SP, uma área com grande fluxo de transporte, comércios e residências. O bairro enfrenta desafios devido ao crescimento urbano acelerado, incluindo o alagamento frequente das ruas, especialmente nas regiões mais baixas.
+O projeto será desenvolvido no Bairro do Limão, São Paulo - SP, uma área com grande fluxo de transporte, comércios e residências. O bairro atualmente enfrenta desafios devido ao crescimento urbano acelerado, incluindo o alagamento frequente das ruas, especialmente nas regiões mais baixas. Sua proximidade com o Rio Tietê agrava a situação, já que a drenagem insuficiente e a impermeabilização do solo dificultam o escoamento da água da chuva, contribuindo para os alagamentos recorrentes.
 
 ## Público - Alvo
 O público-alvo são as famílias de classe média e baixa que residem no bairro, além de trabalhadores industriais e comerciantes locais. As atividades serão direcionadas à conscientização e educação ambiental da comunidade, com o intuito de melhorar a qualidade de vida e prevenir os impactos das enchentes.
@@ -37,13 +37,6 @@ Entre as más práticas que comprometem o sucesso das ações, destacam-se:
 
 - Falta de manutenção contínua das obras e melhorias de infraestrutura.
 - Falta de transparência nas ações do governo e da prefeitura em relação às obras e investimentos realizados.
-
-## Questões a Explorar
-- Efetividade das obras realizadas pelo governo estadual, como a construção de túneis e galerias pluviais, para resolver definitivamente os problemas de alagamento.
-- Como garantir a manutenção a longo prazo dessas infraestruturas para que continuem eficazes?
-- Outras soluções complementares para reduzir as enchentes, como a ampliação de áreas verdes e o incentivo a soluções baseadas na natureza (ex.: jardins de chuva).
-- Como incentivar a reciclagem e o descarte correto de resíduos, evitando que o lixo obstrua os sistemas de drenagem?
-- O papel da educação ambiental na conscientização da comunidade e na promoção de atitudes sustentáveis.
 
 ## Fontes que serão utilizadas para este projeto:
 - Google Acadêmico
