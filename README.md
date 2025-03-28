@@ -1,4 +1,4 @@
-# Projeto Extensão 1 - Desenvolvimento de um modelo para prevenção de enchentes no Bairro do Limão - São Paulo
+# Projeto Extensão 1 - Enchentes e Urbanização no Bairro do Limão, São Paulo - SP
 Desenvolvido como parte da grade curricular da Universidade Cruzeiro do Sul. Este projeto de extensão visa desenvolver um framework que auxilie no mapeamento de áreas suscetíveis a enchentes, através do monitoramento e previsão automatizada de ocorrência de inundações pelo Bairro do Limão, localizado na Zona Norte da cidade de São Paulo.
 
 ## Relação com os Objetivos de Desenvolvimento Sustentável (ODS)
